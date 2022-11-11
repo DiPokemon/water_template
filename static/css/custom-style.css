@@ -99,5 +99,8 @@ h1,h2,h3,h4{
 /* ============== */
 
 .header_top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     background-color: #2f75ac;
 }

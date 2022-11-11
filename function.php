@@ -39,7 +39,7 @@ function change_logo_class( $html ) {
 //правильное подключение CSS
 function water_load_styles()
 {
-  wp_enqueue_style('style', get_template_directory_uri().'/static/css/style.css');
+  wp_enqueue_style('custom-style', get_template_directory_uri().'/static/css/custom-style.css');
   wp_enqueue_style('slick', get_template_directory_uri().'/static/libs/slick/slick.css');
   wp_enqueue_style('slick-theme', get_template_directory_uri().'/static/libs/slick/slick-theme.css');
 }; 
