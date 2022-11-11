@@ -2,6 +2,40 @@
 //включаем поддержку кастомного лога из настроек
 add_theme_support( 'custom-logo' );
 
+//поддержка миниатюр
+add_theme_support('post-thumbnails');
+
+//регистрация областей меню
+register_nav_menus([
+    'main_menu' => 'Main menu',
+    'footer_menu' => 'Footer menu'
+]);
+
+//добавление класса к li в меню
+function add_additional_class_on_li($classes, $item, $args) {
+    if(isset($args->add_li_class)) {
+        $classes[] = $args->add_li_class;
+    }
+    return $classes;
+}
+add_filter('nav_menu_css_class', 'add_additional_class_on_li', 1, 3);
+
+//добавление класса к <a> в меню
+function add_menu_link_class( $atts, $item, $args ) {
+  if (property_exists($args, 'link_class')) {
+    $atts['class'] = $args->link_class;
+  }
+  return $atts;
+}
+add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
+
+// добавление класса к логотипу
+add_filter( 'get_custom_logo', 'change_logo_class' );
+function change_logo_class( $html ) {
+       $html = str_replace( 'custom-logo-link', 'header__logo_img', $html );
+    return $html;
+};
+
 //правильное подключение CSS
 function water_load_styles()
 {
