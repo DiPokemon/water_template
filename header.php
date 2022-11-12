@@ -11,8 +11,8 @@
 
     <body>
         <header>            
-                <div class="header_top">
-                    <div class="container">
+                <div class="header_top container">
+                    
                         <div class="header-left">
                             <div class="header_info-item">
                                 <a href="mailto:info@поверка-воды.рф">info@поверка-воды.рф</a>
@@ -32,11 +32,10 @@
                                 <a href="tel:+79001281414">+7 (900) 128-14-14</a>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
 
-                <div class="header_bottom">
-                    <div class="container">
+                <div class="header_bottom container">                    
                         <div class="header-left">
                             <div class="logo_img"><?php the_custom_logo() ?></div>
                             <div class="logo_text">Городская служба измерений</div>  
@@ -81,8 +80,7 @@
                                 echo $temp_menu;
                             ?>
                         </div>
-                    </div>
-                </div>            
+                </div>                          
         </header>
     
         <main>
