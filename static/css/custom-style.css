@@ -74,6 +74,15 @@ select {
 
 /* === all styles === */
 /* ================== */
+:root {
+  --white: #fff;
+  --blue: #2f75ac;
+  --orange: #ffad12;
+  --dark_blue: #042b59;
+  --red: #ff0000;
+  --green: #438f3b;
+}
+
 .container{
     max-width: 1140px;
     display: -webkit-box;
@@ -99,8 +108,130 @@ h1,h2,h3,h4{
 /* ============== */
 
 .header_top{
+  background-color: #2f75ac  
+}
+
+.header_top{
+  padding: 10px 0
+}
+
+.header_wrapper{
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    background-color: #2f75ac;
+    display: flex;    
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left,
+.header_right{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;   
+}
+
+.header_left{
+  flex-direction: row;
+  gap:10px;
+  align-items: center;
+}
+
+.header_top .header_right{
+  flex-direction: column;
+  gap: 5px
+}
+
+.header_info-item,
+.header_info-item a{
+  color: var(--white);
+}
+
+.header_info-item:hover,
+.header_info-item a:hover{
+  color: var(--orange);
+}
+
+.header_tel a{
+  display: block;
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 20px;
+  padding: 5px 10px
+}
+
+.logo_img {
+  width: 100px;
+ }
+
+.logo_img img{
+  object-fit: cover;
+  height: auto;
+  padding-top: 2px;
+}
+
+.logo_text,
+.header__menu a {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--blue)
+}
+
+/* === header menu === */
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.menu__item {
+  display: flex;
+  align-items: stretch;
+  float: left;
+  position: relative;
+}
+.menu__link {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  align-items: center;
+  text-decoration: none;
+  transition: .3s linear;
+}
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25px;
+  z-index: 5;
+  min-width: 200px;
+  border-radius: 3px;
+  visibility: hidden;
+  opacity: 0;
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  transition: .5s linear;
+  box-shadow: 0px 0px 5px var(--blue);
+}
+.menu-item:hover>.sub-menu {
+  visibility: visible;
+  opacity: 1;
+  transform: rotateX(0deg);
+}
+.sub-menu .menu-item {
+  position: relative;
+}
+.sub-menu .menu-item .menu__link {
+  color: var(--blue);
+  padding: 10px 20px;
+  font-size: 13px;
 }
