@@ -2,7 +2,7 @@
 
 <section class="main_slider-block">
     <div class="main_slider-wrapper">  
-
+      
         <div class="main_slide-item" style="background-image: url('/static/img/ustanovka-schetchikov-vody.png')">
             <div class="main_slide-body container">
                 <div class="main_slide-left">
