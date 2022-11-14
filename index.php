@@ -29,7 +29,7 @@
             <div class="city-title">
                 <h3>Ростов</h3>
             </div>
-            </div class="main_price-table-slider">
+            <div class="main_price-table-slider">
 
                 <div class="price_slider-item apparts">
                     <div class="price_slider-item-top">

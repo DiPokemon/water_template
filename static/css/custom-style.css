@@ -414,6 +414,21 @@ h1,h2,h3,h4{
   border-color: var(--orange);
 }
 
+.apparts .btn:hover {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+
+.house .btn:hover {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+
+.well .btn:hover {
+  color: var(--dark_blue);
+  border-color: var(--dark_blue);
+}
+
 .price_item-header{
   padding: 15px 0;
   color: var(--white);
@@ -467,4 +482,12 @@ h1,h2,h3,h4{
   font-weight: 500;
   border-width: 2px;
   padding: 15px 30px;
+}
+
+.main_price-table-slider .slick-track{
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  flex-direction: row;
+  align-items: stretch
 }
