@@ -348,12 +348,17 @@ h1,h2,h3,h4{
 
 /* ====== */
 
+section {
+  padding-bottom: 100px
+}
+
 .section_title h2{
   color: var(--blue);
   font-size: 32px;
   font-weight: 600;
   text-align: center;
-  padding: 30px 0  
+  padding: 30px 0;
+  text-transform: uppercase;
 }
 
 .city-title{
@@ -534,4 +539,112 @@ p {
 
 .warning_info p{
   text-align: center;
+}
+
+.benefits_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+.benefits_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  color: var(--blue);
+}
+
+.benefits_icon {
+  font-size: 50px;
+}
+
+.benefits_text{
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.testimonials_slider-item {
+  text-align: center;  
+}
+
+.testimonial_text{
+  font-style: italic;
+  color: var(--gray);
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.testimonial_name{
+  color: #000;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.testimonial_date{
+  color:var(--blue);
+  font-size: 14px
+
+}
+
+.step_item{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+  flex-direction: row;
+}
+
+.step_item:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+.step_half{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.step_icon,
+.step_title{
+  color:var(--blue)
+}
+
+.step_icon{
+  font-size: 70px;
+}
+
+.step_title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.step_text{
+  color: var(--gray);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.faq_item-sizer,
+.faq_item{
+  width: 50%
+}
+
+.faq_item{
+  margin-bottom: 10px
 }
