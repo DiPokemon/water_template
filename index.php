@@ -247,7 +247,19 @@
 
 <section class="yellow_bg">
     <div class="yellow_bg-wrapper">
-
+      <div class="container">
+        <div class="yellow_bg-body">
+            <div class="yellow_bg-information">
+                <p class="yellow_bg-title">О КОМПАНИИ</p>
+                <p class="yellow_bg-text">Компания «Городская служба измерений» сотрудничает с лучшими специалистами 
+                    аккредитованной метрологической службы <a class="color_red" href="https://poverkadoma.ru">ООО «МС Ресурс»</a>, обеспечивая тем самым своевременное оказание 
+                    услуг гражданам РФ.</p>
+                <p class="yellow_bg-text">Личный штат техников и отдел контроля качества ежедневно заботятся о наших 
+                    клиентах за счет большого количества партнеров по всей стране мы «держим» приемлемый чек. </p>   
+            </div>
+            <div class="yellow_bg-slider">Slider</div>
+        </div>
+      </div>
     </div>
 </section>
 
