@@ -244,4 +244,10 @@
     </div>
 
 </section>
+
+<section class="yellow_bg">
+    <div class="yellow_bg-wrapper">
+        
+    </div>
+</section>
 <?php get_footer(); ?>
