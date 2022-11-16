@@ -250,4 +250,46 @@
 
     </div>
 </section>
+
+<section>
+    <div class="container">
+        <div class="section_title">
+            <h2>Преимущества</h2>
+        </div> 
+        <div class="benefits_grid">
+            <div class="benefits_item">
+                <div class="benefits_icon">
+                    <i aria-hidden="true" class="far fa-check-square"></i>
+                </div>
+                <div class="benefits_text">
+                    Аккредитация
+                </div>
+            </div>
+            <div class="benefits_item">
+                <div class="benefits_icon">
+
+                </div>
+                <div class="benefits_text">
+                    
+                </div>
+            </div>
+            <div class="benefits_item">
+                <div class="benefits_icon">
+
+                </div>
+                <div class="benefits_text">
+                    
+                </div>
+            </div>
+            <div class="benefits_item">
+                <div class="benefits_icon">
+
+                </div>
+                <div class="benefits_text">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php get_footer(); ?>

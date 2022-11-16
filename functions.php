@@ -42,6 +42,7 @@ function water_load_styles()
   wp_enqueue_style('custom-style', get_template_directory_uri().'/static/css/custom-style.css');
   wp_enqueue_style('slick', get_template_directory_uri().'/static/libs/slick/slick.css');
   wp_enqueue_style('slick-theme', get_template_directory_uri().'/static/libs/slick/slick-theme.css');
+  wp_enqueue_style('fontawesome', get_template_directory_uri().'/static/css/fontawesome.all.min.css');
 }; 
 add_action('wp_enqueue_scripts', 'water_load_styles', 10);
 
