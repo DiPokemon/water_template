@@ -354,10 +354,10 @@ h4 {
 /* ====== */
 
 section {
-  padding-bottom: 100px
+  padding-bottom: 100px;
 }
 
-.section_title h2{
+.section_title h2 {
   color: var(--blue);
   font-size: 32px;
   font-weight: 600;
@@ -549,16 +549,16 @@ p {
   position: relative;
   background-color: var(--orange);
   width: 110%;
-  top: -5%; 
-  left: -5%; 
+  top: -5%;
+  left: -5%;
   transform: rotate(5deg);
   padding-bottom: 40px;
 }
-.yellow_bg-wrapper {  
+.yellow_bg-wrapper {
   transform: rotate(-5deg);
 }
 
-.about_text p{
+.about_text p {
   font-size: 16px;
   text-align: center;
   padding-bottom: 20px;
@@ -582,7 +582,7 @@ p {
 .benefits_item {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   color: var(--blue);
@@ -592,18 +592,18 @@ p {
   font-size: 50px;
 }
 
-.benefits_text{
+.benefits_text {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .testimonials_slider-item {
-  text-align: center;  
+  text-align: center;
 }
 
-.testimonial_text{
+.testimonial_text {
   font-style: italic;
   color: var(--gray);
   font-size: 24px;
@@ -611,18 +611,17 @@ p {
   padding-bottom: 20px;
 }
 
-.testimonial_name{
+.testimonial_name {
   color: #000;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.testimonial_date{
-  color:var(--blue);
-  font-size: 14px
-
+.testimonial_date {
+  color: var(--blue);
+  font-size: 14px;
 }
 
 .order_wrapper {
@@ -633,21 +632,21 @@ p {
   width: 50%;
 }
 
-.step_item{
+.step_item {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; 
+  display: flex;
   flex-direction: row;
 }
 
-.step_item:nth-child(even){
+.step_item:nth-child(even) {
   flex-direction: row-reverse;
 }
 
-.step_half{
+.step_half {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   width: 50%;
   justify-content: center;
@@ -657,67 +656,109 @@ p {
 }
 
 .step_icon,
-.step_title{
-  color:var(--blue)
+.step_title {
+  color: var(--blue);
 }
 
-.step_icon{
+.step_icon {
   font-size: 70px;
 }
 
-.step_title{
-  font-family: 'Montserrat', sans-serif;
+.step_title {
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 28px;
 }
 
-.step_text{
+.step_text {
   color: var(--gray);
   font-size: 20px;
   font-weight: 400;
 }
 
-.faq_wrapper{
-  max-width:100%
+.faq_wrapper {
+  max-width: 100%;
 }
 
 .grid:after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
 
 .faq_item-sizer,
-.faq_item{
-  width: 49%
+.faq_item {
+  width: 49%;
 }
 
-.faq_item{
-  margin-bottom: 10px
+.faq_item {
+  margin-bottom: 10px;
 }
 
-
-@media(max-width: 1160px){
-  .container{
+@media (max-width: 1160px) {
+  .container {
     padding: 0 10px;
   }
   .yellow_bg-wrapper {
-    width: 90vw; 
-    margin: 0 auto; 
+    width: 90vw;
+    margin: 0 auto;
   }
 }
 
-@media(max-width:660px){
-  .yellow_bg{
+@media (max-width: 660px) {
+  .yellow_bg {
     width: 120%;
     left: -10%;
   }
 }
 
-@media(max-width:400px){
-  .yellow_bg{
+@media (max-width: 400px) {
+  .yellow_bg {
     width: 126%;
     left: -13%;
   }
+}
+
+.footer-top {
+  background-color: var(--blue);
+}
+
+.footer-top__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-top__img {
+  min-width: 100px;
+  min-height: 100px;
+}
+.footer-top__list {
+}
+.footer-top__telefon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer-top__telefon1 {
+}
+.footer-top__telefon2 {
+}
+.footer-bottom {
+  background-color: var(--gray);
+}
+.footer-bottom__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom__inf_left {
+  color: var(--white);
+}
+.footer-bottom__inf_right {
+  color: var(--red);
 }
