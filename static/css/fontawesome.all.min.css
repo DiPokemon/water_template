@@ -226,6 +226,9 @@
  .fa-share-square:before {
    content: "\f14d"; }
  
+.fa-phone:before {
+    content: "\f095"; }
+
  .sr-only {
    border: 0;
    clip: rect(0, 0, 0, 0);

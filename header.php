@@ -31,6 +31,17 @@
                                 </div>
                             </div>  
                         </div>
+                        <div class="header_top-mobile">
+                            <div class="header_left logo_text">Городская служба измерений</div>
+                            <div class="header_right">
+                                <a class="social_contacts-item" href="https://wa.clck.bar/79001281414">
+                                    <i aria-hidden="true" class="fab fa-whatsapp"></i>
+                                </a>
+                                <a class="social_contacts-item" href="https://t.me/gsi_poverka">
+                                    <i aria-hidden="true" class="fab fa-telegram"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
