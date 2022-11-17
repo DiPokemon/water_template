@@ -3,30 +3,60 @@
         <footer>
           <div class="footer-top">
              <div class="container">
-                <div class="footer-top__body">
-                  <div class="footer-top__img"></div>
-                  <div class="footer-top__list">
-                    <nav>
-                        <ul>
-                            <li>поверка счетчика воды</li>
-                            <li>установка счетчиков воды</li>
-                            <li>замена счетчиков воды</li>
-                            <li>о компании</li>
-                        </ul>    
-                    </nav> 
-                  </div>
+                <div class="footer_body">
+                <div class="logo_img"><?php the_custom_logo() ?></div>
+                  <?php
+                    $args = array(
+                    'container'       => 'nav',          
+                    'container_class' => 'footer__menu menu',           
+                    'menu_class'      => 'menu__list',          
+                    'fallback_cb'     => 'wp_page_menu',            
+                    'link_class'     => 'menu__link',           
+                    'theme_location'  => 'footer_menu',
+                    'add_li_class'    => 'menu__item',
+                    'container_atts'  => array(
+                      'role'      => 'navigation',
+                      'itemscope' => '',
+                      'itemtype'  => 'http://schema.org/SiteNavigationElement',
+                    ),     
+                    'items_wrap'  => '<ul itemprop="about" itemscope="" itemtype="http://schema.org/ItemList" id="%1$s" class="%2$s">%3$s</ul>',
+                    'echo'          => false,               
+                    );
+                    $temp_menu = wp_nav_menu($args);
+                    $temp_menu = str_replace('<a', '<a itemprop="url" ', $temp_menu);
+                    $temp_menu = str_replace('<li', '<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList" ', $temp_menu);
+                    $temp_menu = str_replace('<ul class="sub-menu"', '<ul class="sub-menu" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ItemList"', $temp_menu);
+                    preg_match_all("~<a (.*?)>(.*)</a>~", $temp_menu, $matchesz);
+                    foreach($matchesz[0] as $value){
+                      if(strpos($value, "<span") === false){
+                        $temp_value = preg_replace("~<a (.*?)>(.*)</a>~", "<a $1><span itemprop='name'>$2</span></a>", $value);
+                        $temp_menu = str_replace($value, $temp_value, $temp_menu);
+                      }else{
+                        $temp_value = str_replace("<span", "<span itemprop='name'", $value);
+                        $temp_menu = str_replace($value, $temp_value, $temp_menu);
+                      }
+                    }
+                    echo $temp_menu;
+                  ?>   
                   <div class="footer-top__telefon">
-                     <div class="footer-top__telefon1"><a href="tel:+79001280404">+7 (900) 128-04-04</a></div>
-                     <div class="footer-top__telefon2"><a href="tel:+79001281414">+7 (900) 128-14-14</a></div>
+                    <div class="footer_tel">
+                      <a href="tel:+79001280404">+7 (900) 128-04-04</a>
+                    </div>
+                    <div class="footer_tel">
+                      <a href="tel:+79001281414">+7 (900) 128-14-14</a>
+                    </div>
                   </div>
+                </div>
+                <div class="footer_body display_mobile">
+                  <?php echo $temp_menu;?>
                 </div>
               </div>
           </div>
           <div class="footer-bottom">
              <div class="container">
-                <div class="footer-bottom__body">
-                   <div class="footer-bottom__inf_left">© 2020. ИП Григорьянц Александр Георгиевич</div>
-                   <div class="footer-bottom__inf_right">Политика конфиденциальности</div>
+                <div class="footer_body">
+                  <span>© 2020. ИП Григорьянц Александр Георгиевич</span>
+                  <a href="">Политика конфиденциальности</a>
                 </div>
             </div>  
           </div>
