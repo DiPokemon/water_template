@@ -32,6 +32,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 ul[class],
@@ -545,45 +546,26 @@ p {
 }
 
 .yellow_bg {
-  margin-top: 50px;
-}
-.yellow_bg-wrapper {
+  position: relative;
   background-color: var(--orange);
-  /* width: 110%; */
-  /* top: -5%; */
-  /* left: -5%; */
-  transform: rotate(2deg);
+  width: 110%;
+  top: -5%; 
+  left: -5%; 
+  transform: rotate(5deg);
+  padding-bottom: 40px;
 }
-.yellow_bg-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-left: -5%;
-  transform: rotate(-2deg);
+.yellow_bg-wrapper {  
+  transform: rotate(-5deg);
 }
-.yellow_bg-information {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.yellow_bg-title {
-  margin-top: 30px;
-  color: var(--dark_blue);
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 28px;
-  font-family: "Montserrat", sans-serif;
-}
-.yellow_bg-text {
+
+.about_text p{
+  font-size: 16px;
   text-align: center;
-  color: --var(black);
+  padding-bottom: 20px;
 }
-.yellow_bg-slider {
-  border: 1px solid black;
+
+.about_slider {
+  border: 1px solid #000;
   min-height: 400px;
   min-width: 100%;
   margin-bottom: 50px;
@@ -643,6 +625,14 @@ p {
 
 }
 
+.order_wrapper {
+  display: flex;
+}
+
+.half_column {
+  width: 50%;
+}
+
 .step_item{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -688,11 +678,46 @@ p {
   font-weight: 400;
 }
 
+.faq_wrapper{
+  max-width:100%
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
 .faq_item-sizer,
 .faq_item{
-  width: 50%
+  width: 49%
 }
 
 .faq_item{
   margin-bottom: 10px
+}
+
+
+@media(max-width: 1160px){
+  .container{
+    padding: 0 10px;
+  }
+  .yellow_bg-wrapper {
+    width: 90vw; 
+    margin: 0 auto; 
+  }
+}
+
+@media(max-width:660px){
+  .yellow_bg{
+    width: 120%;
+    left: -10%;
+  }
+}
+
+@media(max-width:400px){
+  .yellow_bg{
+    width: 126%;
+    left: -13%;
+  }
 }

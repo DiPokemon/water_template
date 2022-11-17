@@ -245,22 +245,28 @@
 
 </section>
 
-<section class="yellow_bg">
-    <div class="yellow_bg-wrapper">
-      <div class="container">
-        <div class="yellow_bg-body">
-            <div class="yellow_bg-information">
-                <p class="yellow_bg-title">О КОМПАНИИ</p>
-                <p class="yellow_bg-text">Компания «Городская служба измерений» сотрудничает с лучшими специалистами 
-                    аккредитованной метрологической службы <a class="color_red" href="https://poverkadoma.ru">ООО «МС Ресурс»</a>, обеспечивая тем самым своевременное оказание 
-                    услуг гражданам РФ.</p>
-                <p class="yellow_bg-text">Личный штат техников и отдел контроля качества ежедневно заботятся о наших 
-                    клиентах за счет большого количества партнеров по всей стране мы «держим» приемлемый чек. </p>   
+<section class="yellow">
+    <div class="yellow_bg">
+        <div class="container">
+            <div class="yellow_bg-wrapper">
+                <div class="section_title">
+                    <h2>О компании</h2>
+                </div>
+                <div class="about_text">
+                    <p>Компания «Городская служба измерений» сотрудничает с лучшими специалистами 
+                        аккредитованной метрологической службы <a class="color_red" href="https://poverkadoma.ru">ООО «МС Ресурс»</a>, обеспечивая тем самым своевременное оказание 
+                        услуг гражданам РФ.</p>
+                    <p>Личный штат техников и отдел контроля качества ежедневно заботятся о наших 
+                        клиентах за счет большого количества партнеров по всей стране мы «держим» приемлемый чек.</p>                
+                </div>
+                <div class="about_slider">
+                    <div class="about_slider-item">
+                        
+                    </div>
+                </div>
             </div>
-            <div class="yellow_bg-slider">Slider</div>
         </div>
-      </div>
-    </div>
+    </div> 
 </section>
 
 <section>
@@ -329,6 +335,43 @@
         </div>
     </div>
 </section>
+
+<section class="yellow">
+    <div class="yellow_bg">
+        <div class="container">
+            <div class="yellow_bg-wrapper">
+                <div class="section_title">
+                    <h2>Оставить заявку</h2>
+                </div>
+                <div class="order_wrapper">
+                    <div class="order_column half_column">
+                        <p>Прием заявок по телефону — ежедневно с 8:00 до 20:00</p>
+                        <p>Онлайн-заявки — круглосуточно</p>
+                        <p>Работа метролога осуществляется с 8:00 до 18:00</p>
+                        <p><a href="mailto:info@поверка-воды.рф">info@поверка-воды.рф</a></p>
+                        <p><a href="tel:+79001280404">+7 (900) 128-04-04</a></p>
+                        <p><a href="tel:+79001281414">+7 (900) 128-14-14</a></p>
+                        <div class="social_contacts">
+                            <a class="social_contacts-item" href="https://wa.clck.bar/79001281414">
+                                <i aria-hidden="true" class="fab fa-whatsapp"></i>
+                            </a>
+                            <a class="social_contacts-item" href="https://t.me/gsi_poverka">
+                                <i aria-hidden="true" class="fab fa-telegram"></i>
+                            </a>
+                            <a class="social_contacts-item" href="https://wa.clck.bar/79001280404">
+                                <i aria-hidden="true" class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>  
+                    <div class="order_column half_column">
+                        Форма связи
+                    </div>      
+                </div>                
+            </div>
+        </div>
+    </div> 
+</section>
+
 
 <section>
     <div class="container">
