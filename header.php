@@ -52,10 +52,15 @@
                                 <div class="logo_img"><?php the_custom_logo() ?></div>
                                 <div class="logo_text">Городская служба измерений</div>  
                             </div>
-
-                            <div class="header_right">
+                            <div class="header_bottom-mobile">
+                                <a class="tel_mobile" href="tel:+79001280404">
+                                    <i aria-hidden="true" class="fas fa-phone"></i>
+                                </a>     
+                            </div>
+                            
+                            
                                 <div class="header__burger">
-                                    <span></span>
+                                    <i aria-hidden="true" class="fas fa-bars"></i>
                                 </div>
                                 <?php
                                     $args = array(
@@ -92,7 +97,7 @@
                                     }
                                     echo $temp_menu;
                                 ?>
-                            </div>
+                            
                         </div>               
                     </div>    
                 </div>                          
