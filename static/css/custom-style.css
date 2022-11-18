@@ -125,6 +125,10 @@ h4 {
   font-size: 13px;
 }
 
+.yellow_bg{
+  color:var(--black)
+}
+
 /* === header === */
 /* ============== */
 
@@ -637,8 +641,40 @@ p {
   font-size: 14px;
 }
 
+.order_wrapper p a{
+  color: var(--blue);
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
 .order_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  padding-bottom: 40px;
+}
+
+.social_contacts{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px
+}
+
+.social_contacts-item{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: var(--white);
+  background: var(--blue);
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .half_column {
@@ -821,6 +857,9 @@ p {
   .footer__menu .menu__list{
     flex-direction: column;
   }
+  .order_wrapper{
+    flex-direction: column;
+  }
 }
 
 @media(max-width: 820px){
@@ -970,6 +1009,16 @@ p {
       pointer-events: none; 
       cursor: default;  
   }
+
+  .step_item:nth-child(odd){
+    flex-direction: column;
+  }
+  .step_item:nth-child(even){
+    flex-direction: column-reverse;
+  }
+  .step_half{
+    width: 100%;
+  }
 }
 
 @media (max-width: 660px) {
@@ -998,6 +1047,9 @@ p {
   }
   .footer_body.display_mobile{
     display: block;
+  }
+  .benefits_grid{
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 

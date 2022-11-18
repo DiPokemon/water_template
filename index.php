@@ -420,6 +420,34 @@
     </div>
 </section>
 
+<section class="yellow">
+    <div class="yellow_bg">
+        <div class="container">
+            <div class="yellow_bg-wrapper">
+                <div class="section_title">
+                    <h2>Наши услуги</h2>
+                </div>
+                <div class="services_wrapper">
+                    <div class="services_column half_column">
+                        <img src="static/img/service_poverka.jpg" >
+                    </div>  
+                    <div class="service_column half_column">
+                        <h3>Поверка счетчика воды</h3>
+                        <ul>
+                            <li>Без снятия счетчика </li>
+                            <li>Измерение занимает до 20 минут</li>
+                            <li>Приедем в удобный для Вас день</li>
+                            <li>Аккредитованная компания</li>
+                            <li>Аттестованное оборудование и многолетний опыт</li>
+                            <li>Необходимый пакет документов для любой организации</li>
+                        </ul>
+                    </div>      
+                </div>                
+            </div>
+        </div>
+    </div> 
+</section>
+
 <section>
     <div class="container">
         <div class="section_title">
