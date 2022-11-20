@@ -414,7 +414,21 @@
         </div>
 
         <div class="steps_wrapper-slider">
-
+            <div class="step_item">
+                <div class="step_half">
+                    <div class="step_icon">
+                        <i aria-hidden="true" class="far fa-envelope-open"></i>
+                    </div>
+                    <div class="step_title">
+                        Заявка
+                    </div>
+                </div>
+                <div class="step_half">
+                    <div class="step_text">
+                        Оставьте заявку по телефону, через форму обратной связи или на сайте
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -429,10 +443,10 @@
                 </div>
                 <div class="services_wrapper">
                     <div class="services_column half_column">
-                        <img src="static/img/service_poverka.jpg" >
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/service_poverka.jpg" >
                     </div>  
                     <div class="service_column half_column">
-                        <h3>Поверка счетчика воды</h3>
+                        <h2>Поверка счетчика воды</h2>
                         <ul>
                             <li>Без снятия счетчика </li>
                             <li>Измерение занимает до 20 минут</li>
@@ -442,7 +456,24 @@
                             <li>Необходимый пакет документов для любой организации</li>
                         </ul>
                     </div>      
-                </div>                
+                </div>  
+                        
+                <div class="services_wrapper-slider">
+                    <div class="services_img">
+                        <img src="<?php echo get_template_directory_uri()?>/static/img/service_poverka.jpg" >
+                    </div>  
+                    <div class="service_description">
+                        <h2>Поверка счетчика воды</h2>
+                        <ul>
+                            <li>Без снятия счетчика </li>
+                            <li>Измерение занимает до 20 минут</li>
+                            <li>Приедем в удобный для Вас день</li>
+                            <li>Аккредитованная компания</li>
+                            <li>Аттестованное оборудование и многолетний опыт</li>
+                            <li>Необходимый пакет документов для любой организации</li>
+                        </ul>
+                    </div>      
+                </div> 
             </div>
         </div>
     </div> 
