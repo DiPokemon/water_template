@@ -24,90 +24,10 @@
     <div class="container">
         <div class="section_title">
             <h2>Наши цены</h2>
-        </div>    
-        <div class="main_price-city">
-            <div class="city-title">
-                <h3>Ростов</h3>
-            </div>
-            <div class="main_price-table-slider">
+        </div>  
 
-                <div class="price_slider-item apparts">
-                    <div class="price_slider-item-top">
-                        <div class="price_item-header">
-                            <div class="price_item-title">Квартира</div>
-                            <div class="price_item-subtitle subtitle">Поверка счетчика</div>
-                        </div>
+        <?php echo do_shortcode('[water_price]'); ?>
 
-                        <div class="price_item-body">
-                            <div class="price_item-price">
-                                <div class="ruble_symbol">₽</div>
-                                <div class="price">550</div>
-                            </div>
-                            <div class="price_item-advantages">
-                                <div class="advantages_icon">0</div>
-                                <div class="advantages_text">Льгота</div>
-                            </div>                        
-                        </div>
-                    </div>
-                    <div class="price_slider-item-bottom">
-                        <div class="price_item-btn">
-                            <a class="btn" href="#">Оставить заявку</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="price_slider-item house">
-                    <div class="price_slider-item-top">
-                        <div class="price_item-header">
-                            <div class="price_item-title">Дом</div>
-                            <div class="price_item-subtitle subtitle">Поверка счетчика</div>
-                        </div>
-
-                        <div class="price_item-body">
-                            <div class="price_item-price">
-                                <div class="ruble_symbol">₽</div>
-                                <div class="price">550</div>
-                            </div>
-                            <div class="price_item-advantages">
-                                <div class="advantages_icon"></div>
-                                <div class="advantages_text"></div>
-                            </div>                        
-                        </div>
-                    </div>
-                    <div class="price_slider-item-bottom">
-                        <div class="price_item-btn">
-                            <a class="btn" href="#">Оставить заявку</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="price_slider-item well">
-                    <div class="price_slider-item-top">
-                        <div class="price_item-header">
-                            <div class="price_item-title">Квартира</div>
-                            <div class="price_item-subtitle subtitle">Поверка счетчика</div>
-                        </div>
-
-                        <div class="price_item-body">
-                            <div class="price_item-price">
-                                <div class="ruble_symbol">₽</div>
-                                <div class="price">550</div>
-                            </div>
-                            <div class="price_item-advantages">
-                                <div class="advantages_icon"></div>
-                                <div class="advantages_text"></div>
-                            </div>                        
-                        </div>
-                    </div>
-                    <div class="price_slider-item-bottom">
-                        <div class="price_item-btn">
-                            <a class="btn" href="#">Оставить заявку</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
         <div class="text_block">
             <p>Замена счетчика в квартире от 1300₽ (2000₽ со счетчиком)</p>
             <p>Замена счетчика в частном доме от 1500₽ + стоимость счетчика</p>
