@@ -582,10 +582,24 @@ p {
 }
 
 .about_slider {
-  border: 1px solid #000;
   min-height: 400px;
   min-width: 100%;
   margin-bottom: 50px;
+}
+
+.about_slider .slick-track{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+}
+
+.about_slider img{
+  border-radius: 10px;
+  max-width: 300px;
+  object-fit: contain;
 }
 
 .benefits_grid {
@@ -1063,6 +1077,10 @@ p {
   li.menu-item-has-children > a{
       pointer-events: none; 
       cursor: default;  
+  }
+
+  .about_slider img{
+    margin: 0 auto;
   }
 
   .step_item:nth-child(even) {

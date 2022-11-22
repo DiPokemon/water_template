@@ -163,11 +163,7 @@
                     <p>Личный штат техников и отдел контроля качества ежедневно заботятся о наших 
                         клиентах за счет большого количества партнеров по всей стране мы «держим» приемлемый чек.</p>                
                 </div>
-                <div class="about_slider">
-                    <div class="about_slider-item">
-                        
-                    </div>
-                </div>
+                <?php echo do_shortcode('[water_certificates]'); ?>               
             </div>
         </div>
     </div> 
