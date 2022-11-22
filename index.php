@@ -1,23 +1,7 @@
 <?php get_header(); ?>
 
 <section class="main_slider-block">
-    <div class="main_slider-wrapper">  
-      
-        <div class="main_slide-item" style="background-image: url('/static/img/ustanovka-schetchikov-vody.png')">
-            <div class="main_slide-body container">
-                <div class="main_slide-left">
-                    <div class="main_slide-title"><h2>Заголовок</h2></div>
-                    <div class="main_slide-subtitle">Подзаголовок</div>
-                    <div class="main_slide-description">Описание</div>
-                    <a class="main_slide-btn btn" href="#">Подробнее</a>
-                </div>
-                <div class="main_slide-right">
-                    Форма связи
-                </div>
-            </div>            
-        </div>
-
-    </div>
+    <?php echo do_shortcode('[water_main_slider]'); ?>
 </section>
 
 <section>
