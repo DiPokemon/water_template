@@ -217,21 +217,7 @@
             <h2>Отзывы</h2>
         </div>
         <div class="testimonials_slider">
-
-            <div class="testimonials_slider-item">
-                <div class="testimonial_text">
-                    Выражаю благодарность сотрудникам Городской Службы Измерений за быстрое и качественное обслуживание.
-                    Мастер приехал быстро, качественно выполнил поверку, на руки выдал все необходимые документы!
-                    Буду рекомендовать своим знакомым.
-                </div>
-                <div class="testimonial_name">
-                    Александр Иванов
-                </div>
-                <div class="testimonial_date subtitle">
-                    14 февраля 2021
-                </div>
-            </div>
-
+            <?php echo do_shortcode('[water_reviews]'); ?>
         </div>
     </div>
 </section>
