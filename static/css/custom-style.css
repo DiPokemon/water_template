@@ -655,6 +655,18 @@ p {
   font-size: 14px;
 }
 
+.testimonials_slider .slick-arrow:before{
+  color: var(--blue)
+}
+
+.testimonials_slider .slick-dots .slick-active button::before{
+  color:var(--orange)
+}
+
+.testimonials_slider .slick-dots li button:before{
+  color:var(--blue)
+}
+
 .order_wrapper p a{
   color: var(--blue);
   font-size: 18px;
@@ -740,16 +752,16 @@ p {
   font-weight: 400;
 }
 
-.services_wrapper{
+.service_item{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 20px
 }
 
-.services_wrapper-slider{
+/* .services_wrapper-slider{
   display: none;
-}
+} */
 
 .service_wrapper:nth-child(odd){
   flex-direction: row;
@@ -1108,6 +1120,14 @@ p {
   .step_half,
   .half_column{
     width: 100%;
+  }
+
+  .services_wrapper .service_item .half_column:first-child{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px
   }
 }
 
