@@ -21,4 +21,35 @@ $(document).ready(function () {
             arrows: true,
             dots: true,            
         }); 
+    
+        $('.post_gallery-slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,
+            responsive: [
+                {
+                    breakpoint: 1000,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+                },     
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                }, 
+                {
+                    breakpoint: 400,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }, 
+            ],           
+        }); 
 });
+
