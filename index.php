@@ -216,9 +216,7 @@
         <div class="section_title">
             <h2>Отзывы</h2>
         </div>
-        <div class="testimonials_slider">
-            <?php echo do_shortcode('[water_reviews]'); ?>
-        </div>
+        <?php echo do_shortcode('[water_reviews]'); ?>        
     </div>
 </section>
 
@@ -264,59 +262,7 @@
         <div class="section_title">
             <h2>Этапы проверки</h2>
         </div>
-
-        <div class="steps_wrapper">
-            <div class="step_item">
-                <div class="step_half">
-                    <div class="step_icon">
-                        <i aria-hidden="true" class="far fa-envelope-open"></i>
-                    </div>
-                    <div class="step_title">
-                        Заявка
-                    </div>
-                </div>
-                <div class="step_half">
-                    <div class="step_text">
-                        Оставьте заявку по телефону, через форму обратной связи или на сайте
-                    </div>
-                </div>
-            </div>
-
-            <div class="step_item">
-                <div class="step_half">
-                    <div class="step_icon">
-                        <i aria-hidden="true" class="far fa-envelope-open"></i>
-                    </div>
-                    <div class="step_title">
-                        Заявка
-                    </div>
-                </div>
-                <div class="step_half">
-                    <div class="step_text">
-                        Оставьте заявку по телефону, через форму обратной связи или на сайте
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="steps_wrapper-slider">
-            <div class="step_item">
-                <div class="step_half">
-                    <div class="step_icon">
-                        <i aria-hidden="true" class="far fa-envelope-open"></i>
-                    </div>
-                    <div class="step_title">
-                        Заявка
-                    </div>
-                </div>
-                <div class="step_half">
-                    <div class="step_text">
-                        Оставьте заявку по телефону, через форму обратной связи или на сайте
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        <?php echo do_shortcode('[water_steps]'); ?>        
     </div>
 </section>
 
@@ -327,39 +273,7 @@
                 <div class="section_title">
                     <h2>Наши услуги</h2>
                 </div>
-                <div class="services_wrapper">
-                    <div class="services_column half_column">
-                        <img src="<?php echo get_template_directory_uri()?>/static/img/service_poverka.jpg" >
-                    </div>  
-                    <div class="service_column half_column">
-                        <h2>Поверка счетчика воды</h2>
-                        <ul>
-                            <li>Без снятия счетчика </li>
-                            <li>Измерение занимает до 20 минут</li>
-                            <li>Приедем в удобный для Вас день</li>
-                            <li>Аккредитованная компания</li>
-                            <li>Аттестованное оборудование и многолетний опыт</li>
-                            <li>Необходимый пакет документов для любой организации</li>
-                        </ul>
-                    </div>      
-                </div>  
-                        
-                <div class="services_wrapper-slider">
-                    <div class="services_img">
-                        <img src="<?php echo get_template_directory_uri()?>/static/img/service_poverka.jpg" >
-                    </div>  
-                    <div class="service_description">
-                        <h2>Поверка счетчика воды</h2>
-                        <ul>
-                            <li>Без снятия счетчика </li>
-                            <li>Измерение занимает до 20 минут</li>
-                            <li>Приедем в удобный для Вас день</li>
-                            <li>Аккредитованная компания</li>
-                            <li>Аттестованное оборудование и многолетний опыт</li>
-                            <li>Необходимый пакет документов для любой организации</li>
-                        </ul>
-                    </div>      
-                </div> 
+                <?php echo do_shortcode('[water_services]'); ?>                
             </div>
         </div>
     </div> 
