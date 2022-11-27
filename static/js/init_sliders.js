@@ -4,6 +4,7 @@ $(document).ready(function () {
             slidesToScroll: 1,
             arrows: false,
             dots: false,
+            autoplay:true,
             responsive: [
                 {
                     breakpoint: 768,
@@ -19,14 +20,23 @@ $(document).ready(function () {
             slidesToShow: 1,
             slidesToScroll: 1,
             arrows: true,
-            dots: true,            
+            dots: true,  
+            autoplay:true
         }); 
-    
+        $('.acts-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,    
+            autoplay:true
+        }); 
+        
         $('.post_gallery-slider').slick({
             slidesToShow: 4,
             slidesToScroll: 1,
             arrows: false,
             dots: false,
+            autoplay:true,
             responsive: [
                 {
                     breakpoint: 1000,
