@@ -1,4 +1,12 @@
 $(document).ready(function () {
+        $('.main_slider-wrapper').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            dots: false,  
+            autoplay:true
+        }); 
+    
         $('.main_price-collect-slider').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
