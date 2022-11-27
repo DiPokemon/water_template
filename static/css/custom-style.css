@@ -763,11 +763,11 @@ p {
   margin: 10px 0;
 }
 
-.service_wrapper .service_item:nth-child(odd){
+.services_wrapper .service_item:nth-child(odd){
   flex-direction: row;
 }
 
-.service_wrapper .service_item:nth-child(even){
+.services_wrapper .service_item:nth-child(even){
   flex-direction: row-reverse;
 }
 
