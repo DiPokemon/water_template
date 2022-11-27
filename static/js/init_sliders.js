@@ -7,6 +7,7 @@ $(document).ready(function () {
             autoplay:true
         }); 
     
+    
         $('.main_price-collect-slider').slick({
             slidesToShow: 3,
             slidesToScroll: 1,
