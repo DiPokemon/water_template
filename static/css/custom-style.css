@@ -760,7 +760,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .services_wrapper .service_item:nth-child(odd){
