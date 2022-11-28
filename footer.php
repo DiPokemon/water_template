@@ -56,7 +56,7 @@
              <div class="container">
                 <div class="footer_body">
                   <span>© 2020. ИП Григорьянц Александр Георгиевич</span>
-                  <a href="">Политика конфиденциальности</a>
+                  <a href="/privacy-policy/">Политика конфиденциальности</a>
                 </div>
             </div>  
           </div>
