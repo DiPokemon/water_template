@@ -62,7 +62,7 @@
                                     </div>
                                 </div>  
                                 <div class="order_column half_column">
-                                    Форма связи
+                                    <?php echo do_shortcode('[contact-form-7 id="61" title="Контактная форма 1"]'); ?>
                                 </div>      
                             </div>                
                         </div>

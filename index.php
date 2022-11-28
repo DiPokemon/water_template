@@ -220,7 +220,7 @@
     </div>
 </section>
 
-<section class="yellow">
+<section id="contact" class="yellow">
     <div class="yellow_bg">
         <div class="container">
             <div class="yellow_bg-wrapper">
@@ -248,7 +248,7 @@
                         </div>
                     </div>  
                     <div class="order_column half_column">
-                        <?php echo do_shortcode('[contact-form-7 id="54" title="Контактная форма 1"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="61" title="Контактная форма 1"]'); ?>
                     </div>      
                 </div>                
             </div>

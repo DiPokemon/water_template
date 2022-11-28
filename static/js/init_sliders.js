@@ -5,7 +5,7 @@ $(document).ready(function () {
             arrows: false,
             dots: false,  
             autoplay: true,
-            autoplaySpeed:2000,
+            autoplaySpeed:3000,
         }); 
     
     
@@ -26,13 +26,13 @@ $(document).ready(function () {
             ],
         });   
     
-        $('.testimonials_slider').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            dots: true,  
-            autoplay:true
-        }); 
+        // $('.testimonials_slider').slick({
+        //     slidesToShow: 1,
+        //     slidesToScroll: 1,
+        //     arrows: true,
+        //     dots: true,  
+        //     autoplay:true
+        // }); 
         $('.acts-slider').slick({
             slidesToShow: 1,
             slidesToScroll: 1,

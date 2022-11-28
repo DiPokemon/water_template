@@ -290,6 +290,7 @@ h4 {
   visibility: visible;
   opacity: 1;
   transform: rotateX(0deg);
+  background: var(--white);
 }
 .sub-menu .menu-item {
   position: relative;
@@ -298,6 +299,10 @@ h4 {
   color: var(--blue);
   padding: 10px 20px;
   font-size: 13px;
+}
+
+.sub-menu .menu-item:hover {
+  background: #2f75ac54;
 }
 
 /* === main page === */
