@@ -38,7 +38,7 @@
                                     <a href="mailto:info@поверка-воды.рф"><i aria-hidden="true" class="fas fa-envelope-open"></i> info@поверка-воды.рф</a>
                                 </div>
                                 <div class="header_info-item">
-                                    <p><i aria-hidden="true" class="fas fa-envelope-open"></i> Без выходных с 8:00 до 20:00 | Прием онлайн заявок: 24/7</p> 
+                                    <p><i aria-hidden="true" class="far fa-clock"></i> Без выходных с 8:00 до 20:00 | Прием онлайн заявок: 24/7</p> 
                                 </div>                                
                             </div>
                             <div class="header_right">
