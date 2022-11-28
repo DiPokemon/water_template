@@ -301,6 +301,9 @@ h4 {
 }
 
 /* === main page === */
+.align-center{
+  text-align: center;
+}
 
 .main_slide-item {
   display: -webkit-box;
