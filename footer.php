@@ -61,6 +61,26 @@
             </div>  
           </div>
         </footer>
+        <div class="ads_block-desktop">
+          <!-- Yandex.RTB R-A-2076247-1 -->
+          <div id="yandex_rtb_R-A-2076247-1"></div>
+          <script>window.yaContextCb.push(()=>{
+            Ya.Context.AdvManager.render({
+              renderTo: 'yandex_rtb_R-A-2076247-1',
+              blockId: 'R-A-2076247-1'
+            })
+          })</script>          
+        </div>
+        <div class="ads_block-mobile">
+          <!-- Yandex.RTB R-A-2076247-2 -->
+          <div id="yandex_rtb_R-A-2076247-2"></div>
+          <script>window.yaContextCb.push(()=>{
+            Ya.Context.AdvManager.render({
+              renderTo: 'yandex_rtb_R-A-2076247-2',
+              blockId: 'R-A-2076247-2'
+            })
+          })</script>
+        </div>
 
     </body>
 </html>

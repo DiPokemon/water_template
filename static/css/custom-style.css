@@ -1122,6 +1122,9 @@ color: var(--blue);
   font-weight: 400
 }
 
+.ads_block-mobile{
+  display: none;
+}
 
 @media (max-width: 1160px) {
   .container {
@@ -1367,6 +1370,13 @@ color: var(--blue);
   .slick-next{
     right:0!important
   }
+  .ads_block-desktop{
+    display: none;
+  }
+  .ads_block-mobile{
+    display: block;
+  }
+
 }
 
 @media (max-width: 660px) {
