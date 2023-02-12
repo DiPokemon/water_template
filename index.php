@@ -4,79 +4,89 @@
     <?php echo do_shortcode('[water_main_slider]'); ?>
 </section>
 
+<section class="yellow">
+    <div class="yellow_bg">
+        <div class="container action_container">
+            <div class="yellow_bg-wrapper">
+                <div class="blur_layout">
+                
+                </div>
+                <div class="section_title">
+                    <h2 id="action_title">Акция!</h2>
+                </div>
+                <div class="subtitle_action">
+                    <div class="subtitle_text">
+                        Только до конца марта
+                    </div>
+                    <div class="subtitle_desc subtitle">
+                        *при оставлении заявки на сайте
+                    </div>
+                </div>
+                <div class="text_block-wrapper">
+                    <div class="text_block">
+                        <h4 class="action_city">
+                            Ростов-на-Дону
+                        </h4>
+                        <div class="action_item">
+                            <div class="action_place">Квартира</div>
+                            <div class="action_prices">
+                                <span class="action_old-price">550/500</span>
+                                <span class="action_new-price">450/400</span>
+                            </div>
+                        </div>
+                        <div class="action_item">
+                            <div class="action_place">Ч/Д Дом</div>
+                            <div class="action_prices">
+                                <span class="action_old-price">700/650</span>
+                                <span class="action_new-price">600/550</span>
+                            </div>
+                        </div>
+                        <div class="action_item">
+                            <div class="action_place">Ч/Д Колодец</div>
+                            <div class="action_prices">
+                                <span class="action_old-price">1100/1000</span>
+                                <span class="action_new-price">950/850</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text_block">
+                        <h4 class="action_city">
+                            Аксай, Батайск
+                        </h4>
+                        <div class="action_item">
+                            <div class="action_place">Квартира</div>
+                            <div class="action_prices">
+                                <span class="action_old-price">650/600</span>
+                                <span class="action_new-price">550/500</span>
+                            </div>
+                        </div>
+                        <div class="action_item">
+                            <div class="action_place">Ч/Д Дом</div>
+                            <div class="action_prices">
+                                <span class="action_old-price">700/650</span>
+                                <span class="action_new-price">600/550</span>
+                            </div>
+                        </div>
+                        <div class="action_item">
+                            <div class="action_place">Ч/Д Колодец</div>
+                            <div class="action_prices">
+                                <span class="action_old-price">1100/1000</span>
+                                <span class="action_new-price">950/850</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div> 
+    </div>    
+</section>
+
 <section>
-    <div class="container action_container">
-        <div class="blur_layout">
-            
-        </div>
+    <div class="container">
         <div class="section_title">
-            <h2>Акция!</h2>
+            <h2>Отзывы</h2>
         </div>
-        <div class="subtitle_action">
-            <div class="subtitle_text">
-                Только до конца марта
-            </div>
-            <div class="subtitle_desc subtitle">
-                *при оставлении заявки на сайте
-            </div>
-        </div>
-        <div class="text_block-wrapper">
-
-            <div class="text_block">
-                <h4 class="action_city">
-                    Ростов-на-Дону
-                </h4>
-                <div class="action_item">
-                    <div class="action_place">Квартира</div>
-                    <div class="action_prices">
-                        <span class="action_old-price">550/500</span>
-                        <span class="action_new-price">450/400</span>
-                    </div>
-                </div>
-                <div class="action_item">
-                    <div class="action_place">Ч/Д Дом</div>
-                    <div class="action_prices">
-                        <span class="action_old-price">700/650</span>
-                        <span class="action_new-price">600/550</span>
-                    </div>
-                </div>
-                <div class="action_item">
-                    <div class="action_place">Ч/Д Колодец</div>
-                    <div class="action_prices">
-                        <span class="action_old-price">1100/1000</span>
-                        <span class="action_new-price">950/850</span>
-                    </div>
-                </div>
-            </div>
-            <div class="text_block">
-                <h4 class="action_city">
-                    Аксай, Батайск
-                </h4>
-                <div class="action_item">
-                    <div class="action_place">Квартира</div>
-                    <div class="action_prices">
-                        <span class="action_old-price">650/600</span>
-                        <span class="action_new-price">550/500</span>
-                    </div>
-                </div>
-                <div class="action_item">
-                    <div class="action_place">Ч/Д Дом</div>
-                    <div class="action_prices">
-                        <span class="action_old-price">700/650</span>
-                        <span class="action_new-price">600/550</span>
-                    </div>
-                </div>
-                <div class="action_item">
-                    <div class="action_place">Ч/Д Колодец</div>
-                    <div class="action_prices">
-                        <span class="action_old-price">1100/1000</span>
-                        <span class="action_new-price">950/850</span>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
+        <?php echo do_shortcode('[water_reviews]'); ?>        
     </div>
 </section>
 
@@ -284,15 +294,6 @@
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section>
-    <div class="container">
-        <div class="section_title">
-            <h2>Отзывы</h2>
-        </div>
-        <?php echo do_shortcode('[water_reviews]'); ?>        
     </div>
 </section>
 

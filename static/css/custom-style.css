@@ -1123,17 +1123,21 @@ section.page_header {
 
 /* action block */
 
-.action_container {
+.action_container .yellow_bg-wrapper {
   position: relative;
-  border: 2px solid var(--red);
+  /* border: 2px solid var(--red); */
   border-radius: 10px;
   padding: 0 10px;  
-  background-image: url(../img/action.jpg); 
+  background-image: url(../img/action.png); 
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center; 
   box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
   color: var(--black);
+}
+
+.container.action_container{
+  padding-top: 80px;
 }
 
 .blur_layout{
@@ -1165,8 +1169,33 @@ section.page_header {
   
 }
 
+#action_title{
+  color: var(--red);  
+  font-size: 40px;
+  padding-bottom: 10px;
+  background: linear-gradient(to right, var(--red) 20%, var(--red) 40%, var(--red) 60%, var(--green) 80%);
+  background-size: 200% auto;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+
 .action_container .subtitle_action{
   text-align: center;
+}
+
+.action_container .subtitle{
+  font-size:18px
 }
 
 .action_container .subtitle_text{
