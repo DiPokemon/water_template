@@ -59,6 +59,7 @@ function water_load_scripts()
   wp_enqueue_script('init_masonry', get_template_directory_uri().'/static/js/init_masonry.js', array('masonry'), NULL, true);
   wp_enqueue_script('lazyload_map', get_template_directory_uri().'/static/js/lazyload_map.js', array(), NULL, true);
   wp_enqueue_script('mask_input', get_template_directory_uri().'/static/js/mask_input.js', array(), NULL, true);
+  wp_enqueue_script('blazy', get_template_directory_uri().'/static/js/blazy.min.js', array(), NULL, true);
 } 
 add_action('wp_enqueue_scripts', 'water_load_scripts', 10);
 
