@@ -319,13 +319,9 @@ h4 {
   -webkit-background-size: cover;
   padding: 100px 100px;
   min-height: 500px !important;
-  opacity: 0;
   transition: opacity 0.4s 0.5s ease-out;
-
-    &.is-lazy-loaded{
-        opacity: 1;
-    }
 }
+
 
 .main_slide-item:after {
   content: "";

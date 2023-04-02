@@ -360,12 +360,8 @@ h4 {
   -webkit-background-size: cover;
   padding: 100px 100px;
   min-height: 500px !important;
-  opacity: 0;
   -webkit-transition: opacity 0.4s 0.5s ease-out;
   transition: opacity 0.4s 0.5s ease-out;
-}
-.main_slide-item.is-lazy-loaded {
-  opacity: 1;
 }
 
 .main_slide-item:after {
