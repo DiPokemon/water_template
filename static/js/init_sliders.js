@@ -5,7 +5,8 @@ $(document).ready(function () {
             arrows: false,
             dots: false,  
             autoplay: true,
-            autoplaySpeed:3000,
+            autoplaySpeed: 3000,
+            lazyLoad: 'ondemand',
         }); 
     
     
