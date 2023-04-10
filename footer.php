@@ -50,7 +50,7 @@
                 });            
             });
           </script>
-        <div>
+        </div>
 
         <footer>
           <div class="footer-top">
