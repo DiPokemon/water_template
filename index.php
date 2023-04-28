@@ -16,7 +16,7 @@
                 </div>
                 <div class="subtitle_action">
                     <div class="subtitle_text">
-                        Только до конца апреля
+                        Только до конца мая
                     </div>
                     <div class="subtitle_desc subtitle">
                         *при оставлении заявки на сайте
