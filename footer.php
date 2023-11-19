@@ -56,7 +56,7 @@
           <div class="footer-top">
              <div class="container">
                 <div class="tag_slider">
-                  <?php do_shortcode('[topland_cloudtag]'); ?>
+                  <?php //do_shortcode('[topland_cloudtag]'); ?>
                 </div>
                 <div class="footer_body">
                 <div class="logo_img"><?php the_custom_logo() ?></div>
